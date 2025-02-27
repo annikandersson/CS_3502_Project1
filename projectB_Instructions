@@ -1,0 +1,30 @@
+4.2 Project B: Inter-Process Communication (IPC)
+
+This is a separate project focused specifically on understanding how processes communicate through pipes. You may demonstrate IPC using either:
+
+• Your own custom programs running in your Linux environment
+• Existing Linux programs and utilities
+• A combination of both custom and existing programs
+
+Core Requirements:
+
+• Implement or demonstrate communication between two or more processes using pipes (|)
+• Show and explain data flow between processes
+• Document your implementation choices and rationale
+• Include your demonstration in the video presentation
+
+Example Implementations:
+
+• Create a custom program that processes output from commands like ls or cat
+• Build a simple pipeline using your own programs to process data
+• Combine standard Linux utilities in a meaningful way using pipes
+• Implement a basic producer-consumer pattern between two processes
+
+Documentation Requirements:
+
+• Explain your choice of processes and how they communicate
+• Describe the data flow through the pipe(s)
+• Document any error handling or special cases
+• Include example runs and output in your report
+
+Note: While simpler in scope than the threading project, the IPC project is crucial for understanding how processes communicate in operating systems. Focus on demonstrating your understanding of pipe-based communication through both implementation and documentation.
